@@ -1,0 +1,14 @@
+myenv/
+.venv/
+.env/
+__pycache__/
+.pyc
+.env
+.autoenv
+.autoenv.leave
+.DS_Store
+*.pyc
+**/__pycache__/
+**/*.pyc
+data.json
+*.sql
