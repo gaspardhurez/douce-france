@@ -1,3 +1,16 @@
+body, html {
+  overflow: hidden;
+}
+
+/* Hide scrollbar for all browsers */
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
 .leaflet-interactive {
     outline: none !important;
     border: none !important;
