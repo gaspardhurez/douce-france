@@ -28,7 +28,7 @@ fetch('data/regions.geojson')
         layer.unbindPopup();
 
         layer.on("click", () => {
-          window.open(url, "_blank"); // ouvrir dans un nouvel onglet
+          window.location.href = url; // ouvrir dans un nouvel onglet
         });
       }
     }).addTo(map);
