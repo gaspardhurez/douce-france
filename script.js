@@ -1,9 +1,9 @@
 const map = L.map('map').setView([46.603354, 1.888334], 6);
 
-// Ajouter une tuile de fond OpenStreetMap
-L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap France',
-  maxZoom: 18,
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 20
 }).addTo(map);
 
 // Charger le fichier GeoJSON des régions
