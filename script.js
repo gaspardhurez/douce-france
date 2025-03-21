@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Charger le fichier GeoJSON des régions
-fetch('../data/regions.geojson')
+fetch('data/regions.geojson')
   .then((response) => response.json())
   .then((geojsonData) => {
     // Ajouter les régions sur la carte
