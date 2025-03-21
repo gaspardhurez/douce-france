@@ -1,0 +1,12 @@
+.leaflet-interactive {
+    outline: none !important;
+    border: none !important;
+  }
+  
+  .leaflet-interactive:focus,
+  .leaflet-interactive:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    stroke-width: 1 !important; /* Force la bordure normale */
+  }
